@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateDicee()
+        Roll.layer.cornerRadius = 7
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,9 +29,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet weak var Roll: UIButton!
+    
     @IBAction func RollButton(_ sender: UIButton) {
         updateDicee()
+        
     }
     
     func updateDicee() {

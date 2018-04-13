@@ -52,7 +52,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="318.66666666666669"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="7hb-Cz-yvY">
-                                        <rect key="frame" x="87" y="95" width="240" height="128"/>
+                                        <rect key="frame" x="87" y="94.666666666666686" width="240" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="SBS-33-P14"/>
                                             <constraint firstAttribute="height" constant="128" id="hMm-5u-hUb"/>
@@ -68,7 +68,7 @@
                                 <rect key="frame" x="0.0" y="417.66666666666674" width="414" height="318.33333333333326"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nb7-Ih-s5Q">
-                                        <rect key="frame" x="148.66666666666666" y="124.66666666666669" width="116.99999999999997" height="69"/>
+                                        <rect key="frame" x="148.66666666666666" y="124.33333333333331" width="116.99999999999997" height="69"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="69" id="N4e-GW-nl2"/>
@@ -111,6 +111,7 @@
                     <connections>
                         <outlet property="Dicee1" destination="oUe-na-txH" id="0W4-6s-3C2"/>
                         <outlet property="Dicee2" destination="x37-ao-9k0" id="7W6-IB-UJP"/>
+                        <outlet property="Roll" destination="Nb7-Ih-s5Q" id="09q-0w-ctn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
