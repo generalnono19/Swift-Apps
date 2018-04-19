@@ -1,0 +1,6 @@
+framework module Pods_ChampionsLeague {
+  umbrella header "Pods-ChampionsLeague-umbrella.h"
+
+  export *
+  module * { export * }
+}
